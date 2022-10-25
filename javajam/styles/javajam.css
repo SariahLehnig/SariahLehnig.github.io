@@ -41,7 +41,7 @@ header {
     background-color: #D2B48c;
 	color: #231814;
     padding-left: 240px;
-    background-image: url('/images/coffeelogo.jpg');
+    background-image: url('../images/coffeelogo.jpg');
     background-repeat: no-repeat;
 }
 
@@ -95,21 +95,21 @@ nav ul{
 
 #homehero{
     height: 300px;
-    background-image: url('/images/hero.jpg');
+    background-image: url('../images/hero.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #heromugs{
     height: 300px;
-    background-image: url('/images/heromugs.jpg');
+    background-image: url('../images/heromugs.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #heroguitar{
     height: 300px;
-    background-image: url('/images/heroguitar.jpg');
+    background-image: url('../images/heroguitar.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
