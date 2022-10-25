@@ -1,4 +1,6 @@
 
+* {box-sizing: border-box;}
+
 body {
     color: #221811;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,25 +13,52 @@ body {
 }
 
 main{
-    padding: 0 2em 2em 2em;
+    padding: 0 0 2em 0;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display: block;
+    overflow: auto;
+}
+
+main h2, h3, h4, p, div, ul, dl {
+    padding-right: 2em;
+    padding-left: 3em;
 }
 
 #wrapper{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color:#fefaeb ;
+    background-color:#231814;
     min-width: 900px;
     max-width: 1200px;
     box-shadow: 5px 5px 5px #221811;
+    padding: 0;
 }
 
 
 header {
     background-color: #D2B48c;
-    color: #8c3826;
-    text-align: center;
-    padding: 5px 0px;
+	color: #231814;
+    padding-left: 240px;
+    background-image: url('/images/coffeelogo.jpg');
+    background-repeat: no-repeat;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link {
+	color: #231814;
+}
+
+header a:visited {
+	color: #231814;
+}
+
+header a:hover {
+	color: #FEF6C2;
 }
 
 nav{
@@ -37,23 +66,61 @@ nav{
     text-align: center;
     font-weight: bold;
     padding: 5px 0px;
+    float:left;
+    width: 200px;
 }
 
 nav a { 
     text-decoration: none; 
 }
 
+nav a:link {
+	color: #FEF6C2;
+}
+
+nav a:visited {
+	color: #D2B48C;
+}
+
+nav a:hover {
+	color: #CC9933;
+}
+
+nav ul{
+    list-style-type: none;
+	padding-left: 0;
+}
+
+
+
 #homehero{
     height: 300px;
-    background-size: cover;
+    background-image: url('/images/hero.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+#heromugs{
+    height: 300px;
+    background-image: url('/images/heromugs.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#heroguitar{
+    height: 300px;
+    background-image: url('/images/heroguitar.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 
 h2{
     color: #8c3826;    
 }
 
 h3{
+    font-family: 'Josefin Sans', sans-serif;
     color: #8c3826;
 }
 
@@ -61,10 +128,25 @@ h4{
     background-color: #D2B48C;
     font-size: 1.2em;
     padding: 0 0 .25em .5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #221811 ;
+    clear: left;
+}
+
+.onethird{
+    float: left;
+    width: 33%;
 }
 
 .details{
     padding: 0 20%;
+    overflow: auto;
+}
+
+.floatleft{
+    float: left;
+    padding-right:2em;
+    padding-bottom: 2em;
 }
 
 img{
