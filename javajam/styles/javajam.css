@@ -41,6 +41,8 @@ header {
     background-color: #D2B48c;
 	color: #231814;
     padding-left: 240px;
+    padding-top: 5px;
+    padding-bottom: 40px;
     background-image: url('../images/coffeelogo.jpg');
     background-repeat: no-repeat;
 }
