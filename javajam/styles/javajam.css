@@ -116,6 +116,13 @@ nav li{
     background-repeat: no-repeat;
 }
 
+#herojobs{
+    height: 300px;
+    background-image: url('../images/herojobs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 #mobile {
 	display: inline;
 }
@@ -164,6 +171,25 @@ dt{
     color: #8C3826;
 }
 
+table {
+	margin: auto;
+	width: 90%;
+	border-spacing: 0;
+}
+
+th{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+th, td {
+	padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #D2B48E;
+}
+
+
 footer{
     background-color: #D2B48c;
     font-size: .70em;
@@ -172,6 +198,16 @@ footer{
     border-top: #8C3826 solid 2px;
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+}
+
+input, textarea {
+	margin-bottom: .5em;
+}
 
 /* Med Layout */
 @media (min-width: 600px){
@@ -230,6 +266,23 @@ footer{
         margin-right: 10%;
         margin-left: 10%;
     }
+
+    form {
+		width: 40%;
+		display: grid;
+		grid-gap: 1em;
+		gap: 1em;
+		grid-template-columns: 6em 1fr;
+	}
+
+	input[type="submit"] {
+		grid-column: 2 / 3;
+		width: 9em;
+	}
+
+	#herojobs {
+		background-image: url(../images/herojobs.jpg)
+	}
 }
 
 /* Large Layout */
