@@ -79,21 +79,29 @@ nav a:hover {
 	color: #CC9933;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: column;
+nav ul {
+
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 1.25em;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
-    list-style-type: none;
 }
 
-nav li{
-    padding: .5em 1em;
-    width: 100%;
+nav li {
+
     border-bottom: 1px solid #FEF6C2;
+    /* padding: .5em 1em;
+    width: 100%; */
 }
 
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
+
+}
 
 #homehero{
     height: 300px;
@@ -129,6 +137,14 @@ nav li{
 
 #desktop {
 	display: none;
+}
+
+#herocouch{
+    height: 300px;
+    background-image: url('../images/herocouch.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -207,6 +223,23 @@ form {
 
 input, textarea {
 	margin-bottom: .5em;
+}
+
+.item{
+    background-color: #faf9f7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
+}
+
+.item img{
+    float: right;
+}
+
+
+.current{
+    background-color: rgb(65, 55, 41) ;
+    font-weight: bold;
 }
 
 /* Med Layout */
