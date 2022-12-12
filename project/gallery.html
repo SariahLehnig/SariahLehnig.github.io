@@ -11,7 +11,10 @@
     <meta name="keywords" content="Homework, USU, Data Analytics and Information Systems">
     <link rel="stylesheet" href="styles/artsite.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="pixil-frame-0.png">
+    
+    <link rel="stylesheet" href="dist\simple-lightbox.min.css"/>
+    
 
 </head>
 
@@ -31,9 +34,42 @@
 
         <main>
 
+            <div class="gallery">
+                <a href="../project/images/galleryimages/BirdLaby1.PNG" class="big" rel="rel1">
+                  <img src="../project/images/galleryimages/BirdLaby1.PNG" alt="" title="Image 1">
+                </a>
+                <a href="2.jpg" class="big" rel="rel1">
+                    <img src="../project/images/galleryimages/BloodGod.PNG" alt="" title="Image 1">
+                  </a>
+                    
+            </div>
+
         </main>
 
         <footer>
+            <small>
+                <i>
+                    Copyright &copy; NickTheHermitArt <br>
+                    <a href="mailto: hermitart@fakemail.com">Email hermitart@fakemail.com</a>
+                </i>
+                <div>
+                    <p id = "dateupdate"></p>
+                    <script src="js/dateupdate.js"></script>
+                </div>
+            </small>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="dist/simple-lightbox.min.js"></script>
+            <script>
+                var gallery =new SimpleLightbox('.gallery a', {
+                    sourceAttr:'href',
+                    overlay:true,
+                    spinner:true,
+                    nav:true,
+                    navText: ['&larr;','&rarr;'],
+
+                });
+
+            </script>
 
         </footer>
     </div>

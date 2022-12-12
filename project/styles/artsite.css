@@ -1,9 +1,120 @@
 * {box-sizing: border-box;}
 
 /* small layout */
+body {
+    color: #221811;
+    font-family: 'Josefin Sans', Verdana, Tahoma, sans-serif;
+    background-color: #344f3a;
+    margin: 0;
 
+}
+
+main{
+    padding: 0 0 2em 0;
+    background-color: #d2e9d7;
+    display: block;
+}
+
+#wrapper{
+    padding: 0;
+}
+
+header{
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #c2fed4;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:link {
+	color: #6aaa78;
+}
+
+header a:visited {
+	color: #6aaa78;
+}
+
+header a:hover {
+	color: #73fa8a;
+}
+
+nav{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #263a2b;
+}
+
+nav a { 
+    text-decoration: none; 
+}
+
+nav a:link {
+	color: #6aaa78;
+}
+
+nav a:visited {
+	color: #6aaa78;
+}
+
+nav a:hover {
+	color: #73fa8a;
+}
+
+nav ul {
+
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 1.25em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+
+    border-bottom: 1px solid #c2fed4;
+    /* padding: .5em 1em;
+    width: 100%; */
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
+
+}
+
+#recentimage{
+    padding-top: 10px;
+    height: 300px;
+    background-image: url("../images/galleryimages/GreenGroup.PNG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#recentwork{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#aboutme{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+h3{
+    color: #263a2b;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
 
 /* med layout */
+
 
 
 /* large layout */
