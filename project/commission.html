@@ -25,11 +25,58 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="commission.html">Commission</a></li>
+                <li><a class="current" href="commission.html">Commission</a></li>
             </ul>
         </nav>
 
-        <main>
+        <main class="cards">
+            <article class="card">
+                <center><div id="csexample"></div></center>
+                <div class="text">
+                    <h4>Character Sheet</h4>
+                    <p>
+                        For a Character Sheet you get one full body shot with 
+                        two to four head shots or extra details. Description text 
+                        can be as little or as much as can fit on the page.
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                <center><div id="singlecharexample"></div></center>
+                <div class="text">
+                    <h4>Single Character</h4>
+                    <p>
+                        For this you will recieve a drawing with one full body shot
+                        of desired character with a simple background.
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                <center><div id="fakemonexample"></div></center>
+                <div class="text">
+                    <h4>Fakemon</h4>
+                    <p>
+                        For this you will recieve one to three transparent images
+                        of your desired Fakemon line. Each image price is calculated separately.
+                    </p>
+                </div>
+            </article>
+
+            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">Name: </label>
+                <input type="text" id="myName" name="myName" required>
+                <label for="myEmail">E-mail: </label>
+                <input type="email" id="myEmail" name="myEmail" required>
+                <label for="comType">Choose a Commission Type: </label>
+                <select id="comType" name="types">
+                    <option value="characterSheet">Character Sheet</option>
+                    <option value="singleCharacter">Single Character</option>
+                    <option value="fakemon">Fakemon</option>
+                </select>
+                <label for="myExperience">Descride the Comission: </label>
+                <textarea name="myExperience" id="myExperience" rows="2" cols="20" required></textarea>
+                <input type="submit" value="Request Now">
+            </form>
 
         </main>
 

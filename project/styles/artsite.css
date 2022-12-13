@@ -19,6 +19,12 @@ main{
     padding: 0;
 }
 
+.current{
+    background-color: #53805e;
+    color: #73fa8a;
+    font-weight: bolder;
+}
+
 header{
     padding-left: 10px;
     padding-top: 10px;
@@ -62,6 +68,12 @@ nav a:visited {
 
 nav a:hover {
 	color: #73fa8a;
+}
+
+.current{
+    background-color: #467449;
+    font-weight: bolder;
+
 }
 
 nav ul {
@@ -113,8 +125,270 @@ h3{
     font-size: 1.4em;
 }
 
-/* med layout */
+h4{
+    color: #263a2b;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    width: auto;
+    border: 2px solid #6aaa78;
+    margin: 10px;
+    background-color: #6aaa78;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+#csexample{
+    background-image: url("../images/comimages/HardinKnight.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    border: 2px solid #263a2b;
+
+}
+
+#singlecharexample{
+    background-image: url("../images/comimages/BirdLaby2.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    border: 2px solid #263a2b;
+}
+
+#fakemonexample{
+    background-image: url("../images/comimages/RoseLinePokemon.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    border: 2px solid #263a2b;
+}
+
+footer{
+    background-color: #344f3a;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 40%;
+    display: grid;
+    grid-gap: 1em;
+    gap: 1em;
+    grid-template-columns: 6em 1fr;
+    color: #263a2b;
+}
+
+#birdlady1{
+    background-image: url("../images/galleryimages/BirdLaby1.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+
+#bloodgod{
+    background-image: url("../images/galleryimages/BloodGod.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+/* I probably should have just numbered them... */
+#BirdLaby2{
+    background-image: url("../images/galleryimages/BirdLaby2.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#Cyrus{
+    background-image: url("../images/galleryimages/Cyrus.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#DancingKnights{
+    background-image: url("../images/galleryimages/DancingKnights.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#DragonExpressions{
+    background-image: url("../images/galleryimages/DragonExpressions.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#GreenChains{
+    background-image: url("../images/galleryimages/GreenChains.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#GreenGroup{
+    background-image: url("../images/galleryimages/GreenGroup.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#HardinKnight{
+    background-image: url("../images/galleryimages/HardinKnight.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#JunkYard{
+    background-image: url("../images/galleryimages/JunkYard.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#MikoMagic{
+    background-image: url("../images/galleryimages/MikoMagic.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#MountDragon{
+    background-image: url("../images/galleryimages/MountDragon.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#PunzPokemon{
+    background-image: url("../images/galleryimages/PunzPokemon.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#PurplePokemon{
+    background-image: url("../images/galleryimages/PurplePokemon.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#Rev_Tommy1{
+    background-image: url("../images/galleryimages/Rev!Tommy1.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#Rev_Tommy2{
+    background-image: url("../images/galleryimages/Rev!Tommy2.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#RobotSheet{
+    background-image: url("../images/galleryimages/RobotSheet.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#RoseLinePokemon{
+    background-image: url("../images/galleryimages/RoseLinePokemon.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#SimpleChibi{
+    background-image: url("../images/galleryimages/SimpleChibi.GIF");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#Tubbo1{
+    background-image: url("../images/galleryimages/Tubbo1.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
+#Tubbo2{
+    background-image: url("../images/galleryimages/Tubbo2.PNG");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+    margin: 4px;
+}
 
 
-
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+}
 /* large layout */
+@media (min-width: 600px){
+    @supports(display:grid){
+        header{
+            grid-area: header;
+        }
+
+        nav {
+            grid-area: nav;
+        }
+
+        main{
+            grid-area: main;
+        }
+
+        footer{
+            grid-area: footer;
+        }
+
+        #wrapper{
+            display: grid;
+            grid-template: 
+                "header header"
+                "nav main"
+                "footer footer"
+                /200px
+            ;
+        }
+
+        nav ul{
+            flex-direction: column;
+        }
+
+        header{
+            background-image: url('../images/coffeelogo.jpg');
+        }
+    }
+
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap ;
+    }
+}
+
+
